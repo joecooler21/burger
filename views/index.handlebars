@@ -1,0 +1,26 @@
+<div class="container main">
+  <div class="row">
+    <div class="col col-lg-4 col-md-4 col-4">
+      {{#each burgers}}
+      {{#unless devoured}}
+      <div class="burger-view">{{id}} {{burger_name}} <button class="btn btn-primary eat-btn" id="{{id}}">Eat <i
+            class="fa fa-cutlery" aria-hidden="true"></i></button></div>
+      {{/unless}}
+      {{/each}}
+    </div>
+    <div class="col col-lg-4 col-md-4 col-4">
+      <form autocomplete="off">
+        <img width="150" height="150" src="/img/burger.png"></img>
+        <input id="burger-text" type="text"></input>
+        <button id="burger-add" class="btn btn-primary">Add-A-Burger</button>
+      </form>
+    </div>
+    <div class="col col-lg-4 col-md-4 col-4">
+      {{#each burgers}}
+      {{#if devoured}}
+      <div class="eaten-view">{{burger_name}}</div>
+      {{/if}}
+      {{/each}}
+    </div>
+  </div>
+</div>

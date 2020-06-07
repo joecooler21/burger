@@ -1,0 +1,45 @@
+.burger-view {
+    text-align: right;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(56, 81, 148);
+    width: 80%;
+    color: white;
+}
+
+.eaten-view {
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    background-color: grey;
+    width: 80%;
+    color: white;
+}
+
+.eat-btn {
+    width: 75px;
+}
+
+#burger-text{
+    display: inline-block;
+    width: 55%;
+}
+
+#burger-add {
+    margin-top: 10px;
+    width: 200px;
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+img {
+    margin: 10px;
+    margin-top: -50px;
+}
+
+.main {
+    margin-top: 5%;
+}
